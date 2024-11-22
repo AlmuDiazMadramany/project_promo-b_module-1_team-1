@@ -1,0 +1,13 @@
+/*
+colores:
+verde: rgb 116 198 157
+boton gris oscuro: rgb 33 37 41
+
+fuentes:
+H1, h2, h3: CrimsonText
+titulo, p, button: WorkSans
+*/
+
+.menu-principal{
+    display: none;
+}
