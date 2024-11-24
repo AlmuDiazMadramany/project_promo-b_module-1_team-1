@@ -2,6 +2,7 @@
 colores:
 verde: rgb 116 198 157
 boton gris oscuro: rgb 33 37 41
+texto gris clarito: rgb(194,196,196)
 
 fuentes:
 H1, h2, h3: CrimsonText
@@ -28,7 +29,7 @@ titulo, p, button: WorkSans
     margin-left: 22px;
     margin-bottom: 9.5px;
 }
-}
+
 .logo-adatech{
     width: 45px;
 }
@@ -49,6 +50,39 @@ titulo, p, button: WorkSans
     width: auto;
     height: 40px;
 }
+/*section 2 - articulo 2*/
+
+.section2 { display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            }
+
+.article2 {margin-top: 20px;
+            margin-bottom: 5px;
+            padding: 10px;
+            width: 100 vw;
+            }
+
+.image-article2 {width: 90vw;
+                margin: 10px;}
+
+.title-article2 {padding-top: 10px;
+                margin: 10px;
+                color: rgb(33, 37, 41);
+                font-weight: bold;}
+
+.parrafo-article2 {margin: 10px;
+                    color: rgb(194,196,196);
+                    font-family: worksans;}
+
+.button-article2 {background-color: rgb(33, 37, 41) ;
+                    color: white;
+                    padding: 8px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    border-radius: 5px;
+                    margin-left: 20px;
+                    margin-bottom: 20px;}
 
 
 
