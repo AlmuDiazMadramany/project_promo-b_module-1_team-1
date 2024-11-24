@@ -11,3 +11,61 @@ titulo, p, button: WorkSans
 .menu-principal{
     display: none;
 }
+
+.header{
+    background-color: rgb(116 198 157);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    position: sticky; 
+    top: 0;
+    left: 0;
+}
+
+.logo-titulo{
+    display: flex;
+    margin-top: 19.05px;
+    margin-left: 22px;
+    margin-bottom: 9.5px;
+}
+}
+.logo-adatech{
+    width: 45px;
+}
+
+.titulo-header{
+    color: white;
+   font-size: 40px;
+   padding: 10px;
+
+}
+.caja-logo-menu{
+   margin-right: 42px ;
+    display: flex;
+    align-items: center;
+   
+}
+.logo-menu{
+    width: auto;
+    height: 40px;
+}
+
+.footer{
+    background-color: rgb(116 198 157);
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer-logos{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 31px;
+   padding-bottom: 31px;
+}
+
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 31px;
+    font-size: 20px;
+}
