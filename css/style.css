@@ -54,6 +54,13 @@ titulo, p, button: WorkSans
     width: auto;
     height: 40px;
 }
+
+/*section 1 - articulo 1*/
+.section1{
+    background-color: rgb(116 198 157);
+
+    
+
 /*section 2 - articulo 2*/
 
 .section2 { display: flex;
