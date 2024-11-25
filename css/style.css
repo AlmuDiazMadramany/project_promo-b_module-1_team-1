@@ -98,6 +98,47 @@ titulo, p, button: WorkSans
 
 
 
+/* section 2 articulo 3 */
+
+.article3{
+    margin-top: 30px;
+    margin-bottom:20px;
+    padding: 20px;
+}
+
+.image-article3{
+    width: 335px;
+    margin: 3px;
+}
+
+.title-article3{
+    padding-top: 30px;
+    font-family: var(--font-family-h);
+    font-weight: bold;
+    text-align: left;
+}
+
+.parrafo-article3{
+    padding-top: 15px;
+    font-family: var(--font-family-p);
+    color: rgb(194,196,196);
+}
+
+.boton3{
+    display: inline-block;
+    padding: 15px;
+    width: 180px;
+    margin-left: 20px;
+    font-family: var(--font-family-p);
+    background-color:black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
 /* section 3 */
 
 .tittle3{
