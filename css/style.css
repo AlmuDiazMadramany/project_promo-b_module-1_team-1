@@ -9,6 +9,10 @@ H1, h2, h3: CrimsonText
 titulo, p, button: WorkSans
 */
 
+:root {--font-family-h: "Crimson Text", serif;
+        --font-family-p: "Work Sans", sans-serif;}
+
+
 .menu-principal{
     display: none;
 }
@@ -69,11 +73,12 @@ titulo, p, button: WorkSans
 .title-article2 {padding-top: 10px;
                 margin: 10px;
                 color: rgb(33, 37, 41);
-                font-weight: bold;}
+                font-weight: bold;
+                font-family: var(--font-family-h);}
 
 .parrafo-article2 {margin: 10px;
                     color: rgb(194,196,196);
-                    font-family: worksans;}
+                    font-family: var(--font-family-p);}
 
 .button-article2 {background-color: rgb(33, 37, 41) ;
                     color: white;
