@@ -157,9 +157,7 @@ titulo, p, button: WorkSans
     color: white;
     font-family: sans-serif;
 }
-.icon{
-    color: white;
-}
+
 .footer-logos{
    display: flex;
    justify-content: space-around;
