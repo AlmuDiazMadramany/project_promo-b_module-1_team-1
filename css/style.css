@@ -223,8 +223,8 @@ titulo, p, button: WorkSans
     margin: 30px;
     
 }
-/* actualizacion section*/
-.item3{
+
+.item31, .item32, .item33, .item34{
     background-color: white;
     align-items: center;
    /* border: 0.1px solid black; */
@@ -235,11 +235,11 @@ titulo, p, button: WorkSans
 
 }
 
-.image3{
+.image31, .image32, .image33, .image34{
     width: 100%;
 }
 
-.name3{
+.name31, .name32, .name33, .name34{
     text-align: left;
     padding-top: 5px;
     font-family: var(--font-family-h);
@@ -247,7 +247,7 @@ titulo, p, button: WorkSans
     font-weight: bold;
 }
 
-.job{
+.job1, .job2, .job3, .job4{
    text-align: left;
    margin-top: 10px;
    font-family: var(--font-family-p);
