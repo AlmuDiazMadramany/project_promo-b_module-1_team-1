@@ -129,6 +129,7 @@ titulo, p, button: WorkSans
 
 .section2 { display: flex;
             flex-wrap: wrap;
+            flex-direction: row;
             justify-content: left;
             }
 
@@ -153,6 +154,7 @@ titulo, p, button: WorkSans
 
 .button-article2 {background-color: rgb(33, 37, 41) ;
                     color: white;
+                    font-family: var(--font-family-p);
                     padding: 8px;
                     padding-left: 40px;
                     padding-right: 40px;
