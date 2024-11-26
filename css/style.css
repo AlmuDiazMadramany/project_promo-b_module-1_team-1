@@ -165,7 +165,14 @@ titulo, p, button: WorkSans
                     font-size: 20px;
                     border-radius: 5px;}
 
+@media (min-width: 1000px) {
+        .div-article2 {display: inline-flex;
+                    direction: row;
+                    justify-content: space-around;
+                    align-items: center;}
+        .image-article2 {width: 50vw;}
 
+}
 
 /* section 2 articulo 3 */
 
