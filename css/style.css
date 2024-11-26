@@ -285,3 +285,13 @@ titulo, p, button: WorkSans
 
 
 
+@media (min-width: 1024px){
+
+    .container3{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
