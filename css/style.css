@@ -57,6 +57,7 @@ titulo, p, button: WorkSans
 
 /*section 1*/
 .section-1{
+    padding-bottom: 15px;
     background-color: rgb(116 198 157);
     display: flex;
     flex-direction: column;
@@ -99,30 +100,21 @@ titulo, p, button: WorkSans
     width: 80vw;
     margin: 10px;
 }
-
-.rectangle-1{
-    width: 170px;
-    height: 48px;
+.boton1{
+    display: inline-block;
+    padding: 15px;
+    width: 180px;
     margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 5px;
-    background-color: aliceblue;
-    
-}
-    
-.link-1{
-    justify-content: center;
-    align-content: center;
     font-family: var(--font-family-p);
-    font-size: 15px;
-    line-height: 1.25;
-    text-align:center;
-    color: #000; 
-    
+    background-color: white;
+    color: rgb(33, 37, 41);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
 }
+
+
 /*Fin - section 1*/
 
 /*section 2 - articulo 2*/
@@ -231,11 +223,11 @@ titulo, p, button: WorkSans
 .item3{
     background-color: white;
     align-items: center;
-    border: 2px solid black;
+   /* border: 0.1px solid black; */
     padding: 40px;
     text-align: center;
     margin: 5px;
-    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1) 
+    box-shadow: 3px 4px 12px 1px rgb(0, 0, 0, 0.25) 
 
 }
 
