@@ -135,19 +135,21 @@ titulo, p, button: WorkSans
                 margin: 10px;}
 
 .title-article2{padding-top: 10px;
-                margin: 10px;
+                margin-left: 10px;
+                margin-bottom: 20px;
                 color: rgb(33, 37, 41);
                 font-weight: bold;
                 font-family: var(--font-family-h);}
 
-.parrafo-article2{margin: 10px;
+.parrafo-article2{margin-left: 10px;
+                    margin-bottom: 20px;
                     color: rgb(194,196,196);
                     font-family: var(--font-family-p);}
 
 .button-article2{ display: inline-block;
                     padding: 15px;
                     width: 180px;
-                    margin-left: 20px;
+                    margin: 10px;
                     font-family: var(--font-family-p);
                     background-color: 
                     #212529;
