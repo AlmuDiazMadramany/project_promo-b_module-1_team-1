@@ -170,11 +170,12 @@ titulo, p, button: WorkSans
     margin-top: 30px;
     margin-bottom:20px;
     padding: 20px;
+    width: 100vw;
 }
 
 .image-article3{
-    width: 100vw;
-    margin: 3px;
+    width: 90vw;
+    margin: 10px;
 }
 
 .title-article3{
