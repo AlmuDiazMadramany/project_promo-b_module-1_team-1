@@ -215,6 +215,7 @@ titulo, p, button: WorkSans
 
 .container3{
     background-color: white;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -226,7 +227,7 @@ titulo, p, button: WorkSans
 
 .item31, .item32, .item33, .item34{
     background-color: white;
-    align-items: center;
+    align-items: stretch;
    /* border: 0.1px solid black; */
     padding: 40px;
     text-align: center;
@@ -241,7 +242,7 @@ titulo, p, button: WorkSans
 
 .name31, .name32, .name33, .name34{
     text-align: left;
-    padding-top: 5px;
+    padding-top: 10px;
     font-family: var(--font-family-h);
     font-size: 23px;
     font-weight: bold;
@@ -249,7 +250,7 @@ titulo, p, button: WorkSans
 
 .job1, .job2, .job3, .job4{
    text-align: left;
-   margin-top: 10px;
+   padding-top: 30px;
    font-family: var(--font-family-p);
     
 }
@@ -291,7 +292,7 @@ titulo, p, button: WorkSans
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
     }
 
 }
