@@ -206,6 +206,10 @@ titulo, p, button: WorkSans
 .tittle3{
     margin: 50px;
     text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: var(--font-family-h)
+
 }
 
 .container3{
@@ -230,10 +234,6 @@ titulo, p, button: WorkSans
 
 }
 
-/*.article3{
-    height: 100%;
-} */
-
 .image3{
     width: 100%;
 }
@@ -241,11 +241,15 @@ titulo, p, button: WorkSans
 .name3{
     text-align: left;
     padding-top: 5px;
+    font-family: var(--font-family-h);
+    font-size: 23px;
+    font-weight: bold;
 }
 
 .job{
    text-align: left;
    margin-top: 10px;
+   font-family: var(--font-family-p);
     
 }
 
