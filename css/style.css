@@ -96,7 +96,7 @@ titulo, p, button: WorkSans
 }
     
 .image-article-1{
-    width: 90vw;
+    width: 80vw;
     margin: 10px;
 }
 
@@ -127,32 +127,32 @@ titulo, p, button: WorkSans
 
 /*section 2 - articulo 2*/
 
-.section2 { display: flex;
+.section2{ display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: left;
             }
 
-.article2 {margin-top: 20px;
+.article2{margin-top: 20px;
             margin-bottom: 5px;
             padding: 10px;
             width: 100 vw;
             }
 
-.image-article2 {width: 90vw;
+.image-article2 {width: 80vw;
                 margin: 10px;}
 
-.title-article2 {padding-top: 10px;
+.title-article2{padding-top: 10px;
                 margin: 10px;
                 color: rgb(33, 37, 41);
                 font-weight: bold;
                 font-family: var(--font-family-h);}
 
-.parrafo-article2 {margin: 10px;
+.parrafo-article2{margin: 10px;
                     color: rgb(194,196,196);
                     font-family: var(--font-family-p);}
 
-.button-article2 {background-color: rgb(33, 37, 41) ;
+.button-article2{background-color: rgb(33, 37, 41) ;
                     color: white;
                     font-family: var(--font-family-p);
                     padding: 8px;
@@ -174,7 +174,7 @@ titulo, p, button: WorkSans
 }
 
 .image-article3{
-    width: 90vw;
+    width: 80vw;
     margin: 10px;
 }
 
