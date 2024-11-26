@@ -157,7 +157,24 @@ titulo, p, button: WorkSans
                     font-size: 20px;
                     border-radius: 5px;}
 
+@media (min-width: 1000px) {
+        .button-article2 {margin: 10px;}
+        .section2 {width: 100%;
+                    padding-top: 50px;
+                    padding-bottom: 50px;}
+        .article2 {width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center ;}
+        .div-article2 {display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                        gap: 16px;
+                        width: 40vw;}
+        .title-article2 {font-size: 1.8rem;}
+        .image-article2 {width: 40vw;}
 
+}
 
 /* section 2 articulo 3 */
 
