@@ -173,8 +173,8 @@ titulo, p, button: WorkSans
 }
 
 .image-article3{
-    width: 100vw;
-    margin: 3px;
+    width: 90vw;
+    margin: 10px;
 }
 
 .title-article3{
@@ -234,9 +234,9 @@ titulo, p, button: WorkSans
 
 }
 
-.article3{
+/*.article3{
     height: 100%;
-} 
+} */
 
 .image3{
     width: 100%;
