@@ -13,7 +13,9 @@ titulo, p, button: WorkSans
         --font-family-p: "Work Sans", sans-serif;}
 
 
-.menu-principal{
+ /*INICIO HEADER*/
+
+.menu{
     display: none;
 }
 
@@ -44,16 +46,48 @@ titulo, p, button: WorkSans
    padding: 10px;
 
 }
-.caja-logo-menu{
-   margin-right: 42px ;
+
+
+.menu-primario{
+    margin-right:42px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
    
 }
 .logo-menu{
     width: auto;
     height: 40px;
 }
+
+@media(min-width:768px){
+    .menu-caja{
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+        align-content: center;
+        gap: 30px;
+        font-size: 20px;
+        color: white;
+
+    }
+   .logo-titulo{
+    margin-left: 131px;
+   }
+   .menu-primario{
+    margin-right: 131px;
+   }
+    .logo-menu{
+        display:none
+    }
+   
+}
+
+/*FIN HEADER*/
+
 
 /*section 1*/
 .section-1{
@@ -257,7 +291,7 @@ titulo, p, button: WorkSans
 /* final section3 */
 
 
-
+/*INICIO FOOTER*/
 
 .footer{
     background-color: rgb(116 198 157);
@@ -266,13 +300,16 @@ titulo, p, button: WorkSans
 }
 
 .footer-logos{
+    border-top: 20px solid rgb(116 198 157);
+    margin-left: 64px;
+    margin-right: 64px;
    display: flex;
    justify-content: space-around;
-   padding-top: 31px;
-   padding-bottom: 31px;
+
 }
 
 .footer-copy{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     padding-bottom: 31px;
@@ -280,7 +317,26 @@ titulo, p, button: WorkSans
 }
 
 
+@media(min-width:768px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-logos{
+        width: 400px;
+        border-top: none;
+        margin-left: 131px;
+    }
+
+    .footer-copy{
+        margin-right: 131px;
+        display: flex;
+        align-items: center;
+    }
+
+}
 
 
 
-
+/*FIN FOOTER*
