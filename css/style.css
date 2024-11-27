@@ -1,7 +1,7 @@
 /*
 colores:
 verde: rgb 116 198 157
-boton gris oscuro: rgb 33 37 41
+boton gris oscuro: rgb 33 37 41 / #212529
 texto gris clarito: rgb(194,196,196)
 
 fuentes:
@@ -90,7 +90,18 @@ titulo, p, button: WorkSans
 
 
 /*section 1*/
+@media (min-width:1000px){
+    .article-1{
+        display: flex;
+        gap: 15px;
+        flex-direction: row-reverse;
+        
+    }
+
+      
+}
 .section-1{
+    padding-bottom: 15px;
     background-color: rgb(116 198 157);
     display: flex;
     flex-direction: column;
@@ -100,12 +111,10 @@ titulo, p, button: WorkSans
 .title-section-1{
     margin: 10px;
     font-size: 28px;
-    font-weight: bold;
     line-height: 1.25;
     text-align: left;
-    font-weight: bold;
     font-family: var(--font-family-p);
-    color:aliceblue;
+    color:white;
 
 }
 .title-article-1{
@@ -114,9 +123,8 @@ titulo, p, button: WorkSans
     font-weight: bold;
     line-height: 1.25;
     text-align: left;
-    font-weight: bold;
     font-family: var(--font-family-h);
-    color:aliceblue;
+    color:white;
 }
 
 .parrafo-article-1{
@@ -126,37 +134,28 @@ titulo, p, button: WorkSans
     line-height: 1.25;
     text-align: left;
     font-family: var(--font-family-p);
-    color:aliceblue;
+    color:white;
 }
     
 .image-article-1{
     width: 80vw;
     margin: 10px;
 }
-
-.rectangle-1{
-    width: 170px;
-    height: 48px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 5px;
-    background-color: aliceblue;
-    
-}
-    
-.link-1{
-    justify-content: center;
-    align-content: center;
+.boton1{
+    display: inline-block;
+    padding: 15px;
+    width: 180px;
+    margin-left: 10px;
     font-family: var(--font-family-p);
-    font-size: 15px;
-    line-height: 1.25;
-    text-align:center;
-    color: #000; 
-    
+    background-color: white;
+    color: rgb(33, 37, 41);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
 }
+
+
 /*Fin - section 1*/
 
 /*section 2 - articulo 2*/
@@ -177,26 +176,48 @@ titulo, p, button: WorkSans
                 margin: 10px;}
 
 .title-article2{padding-top: 10px;
-                margin: 10px;
+                margin-left: 10px;
+                margin-bottom: 20px;
                 color: rgb(33, 37, 41);
                 font-weight: bold;
                 font-family: var(--font-family-h);}
 
-.parrafo-article2{margin: 10px;
+.parrafo-article2{margin-left: 10px;
+                    margin-bottom: 20px;
                     color: rgb(194,196,196);
                     font-family: var(--font-family-p);}
 
-.button-article2{background-color: rgb(33, 37, 41) ;
-                    color: white;
+.button-article2{ display: inline-block;
+                    padding: 15px;
+                    width: 180px;
+                    margin: 10px;
                     font-family: var(--font-family-p);
-                    padding: 8px;
-                    padding-left: 40px;
-                    padding-right: 40px;
-                    border-radius: 5px;
-                    margin-left: 20px;
-                    margin-bottom: 20px;}
+                    background-color: 
+                    #212529;
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-radius: 5px;}
 
+@media (min-width: 1000px) {
+        .button-article2 {margin: 10px;}
+        .section2 {width: 100%;
+                    padding-top: 50px;
+                    padding-bottom: 50px;}
+        .article2 {width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center ;}
+        .div-article2 {display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                        gap: 16px;
+                        width: 40vw;}
+        .title-article2 {font-size: 1.8rem;}
+        .image-article2 {width: 40vw;}
 
+}
 
 /* section 2 articulo 3 */
 
@@ -204,6 +225,7 @@ titulo, p, button: WorkSans
     margin-top: 30px;
     margin-bottom:20px;
     padding: 20px;
+    width: 100vw;
 }
 
 .image-article3{
@@ -230,7 +252,8 @@ titulo, p, button: WorkSans
     width: 180px;
     margin-left: 20px;
     font-family: var(--font-family-p);
-    background-color:black;
+    background-color: 
+    #212529;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -244,10 +267,15 @@ titulo, p, button: WorkSans
 .tittle3{
     margin: 50px;
     text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: var(--font-family-h)
+
 }
 
 .container3{
     background-color: white;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -256,37 +284,47 @@ titulo, p, button: WorkSans
     margin: 30px;
     
 }
-/* actualizacion section*/
-.item3{
+
+.item31, .item32, .item33, .item34{
     background-color: white;
-    align-items: center;
-    border: 2px solid black;
+    align-items: stretch;
+   /* border: 0.1px solid black; */
     padding: 40px;
     text-align: center;
     margin: 5px;
-    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1) 
+    box-shadow: 3px 4px 12px 1px rgb(0, 0, 0, 0.25) 
 
 }
 
-/*.article3{
-    height: 100%;
-} */
-
-.image3{
+.image31, .image32, .image33, .image34{
     width: 100%;
 }
 
-.name3{
+.name31, .name32, .name33, .name34{
     text-align: left;
-    padding-top: 5px;
+    padding-top: 10px;
+    font-family: var(--font-family-h);
+    font-size: 23px;
+    font-weight: bold;
 }
 
-.job{
+.job1, .job2, .job3, .job4{
    text-align: left;
-   margin-top: 10px;
+   padding-top: 30px;
+   font-family: var(--font-family-p);
     
 }
 
+@media (min-width: 1024px){
+
+    .container3{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
 
 /* final section3 */
 
