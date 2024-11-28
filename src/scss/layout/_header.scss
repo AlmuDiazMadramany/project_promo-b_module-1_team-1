@@ -1,5 +1,70 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
+
+.menu{
+    display: none;
+    }
+.header{
+    background-color: rgb(116 198 157);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    position: sticky; 
+    top: 0;
+    left: 0;
+    }
+    
+    .logo-titulo{
+    display: flex;
+    margin-top: 19.05px;
+    margin-left: 22px;
+    margin-bottom: 9.5px;
+    }
+    
+    .logo-adatech{
+    width: 45px;
+    }
+    
+    .titulo-header{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    
+    }
+    
+    
+    .menu-primario{
+    margin-right:42px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    }
+    .logo-menu{
+    width: auto;
+    height: 40px;
+    }
+    
+    @media(min-width:768px){
+    .menu-caja{
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+        align-content: center;
+        gap: 30px;
+        font-size: 20px;
+        color: white;
+    
+    }
+    .logo-titulo{
+    margin-left: 131px;
+    }
+    .menu-primario{
+    margin-right: 131px;
+    }
+    .logo-menu{
+        display:none
+    }
+    
+    }
