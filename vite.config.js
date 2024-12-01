@@ -59,7 +59,7 @@ export default defineConfig({
       watch: {
         usePolling: true
       }
-  },
+  }, 
   plugins: [
     injectHTML(),
     ViteImageOptimizer({
