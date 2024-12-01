@@ -56,6 +56,9 @@ export default defineConfig({
   },
   server: {
     open: "/index.html",
+      whatch: {
+        usePolling: true
+      }
   },
   plugins: [
     injectHTML(),
