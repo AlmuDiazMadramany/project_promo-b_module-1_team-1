@@ -1,10 +1,17 @@
 @media (min-width:1000px){
     .article-1{
         display: flex;
+        justify-content: center;
+        align-content: center;
         gap: 15px;
         flex-direction: row-reverse;
         
     } 
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
 }
 .section-1{
 padding-bottom: 15px;
@@ -19,7 +26,6 @@ margin: 10px;
 font-size: 28px;
 line-height: 1.25;
 text-align: left;
-font-family: var(--font-family-p);
 color:white;
 
 }
@@ -29,7 +35,6 @@ font-size: 28px;
 font-weight: bold;
 line-height: 1.25;
 text-align: left;
-font-family: var(--font-family-h);
 color:white;
 }
 
@@ -39,7 +44,6 @@ flex-grow: 0;
 font-size: 15px;
 line-height: 1.25;
 text-align: left;
-font-family: var(--font-family-p);
 color:white;
 }
 
@@ -52,7 +56,6 @@ display: inline-block;
 padding: 15px;
 width: 180px;
 margin-left: 10px;
-font-family: var(--font-family-p);
 background-color: white;
 color: rgb(33, 37, 41);
 text-align: center;
