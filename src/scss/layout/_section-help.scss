@@ -18,18 +18,18 @@
         margin-bottom: 20px;
         color: rgb(33, 37, 41);
         font-weight: bold;
-        font-family: var(--font-family-h);}
+        font-family: $font-title;}
 
 .parrafo-article2{margin-left: 10px;
             margin-bottom: 20px;
             color: rgb(194,196,196);
-            font-family: var(--font-family-p);}
+            font-family: $font-text;}
 
 .button-article2{ display: inline-block;
             padding: 15px;
             width: 180px;
             margin: 10px;
-            font-family: var(--font-family-p);
+            font-family: $font-text;
             background-color: 
             #212529;
             color: white;
@@ -50,9 +50,11 @@
 .div-article2 {display: flex;
                 flex-direction: column;
                 text-align: left;
-                gap: 16px;
+                gap: 10px;
                 width: 40vw;}
-.title-article2 {font-size: 1.8rem;}
+.title-article2 {font-size: 1.8rem;
+                margin-bottom: 10px;}
+.parrafo-article2{margin-bottom: 10px;}
 .image-article2 {width: 40vw;}
 
 }
