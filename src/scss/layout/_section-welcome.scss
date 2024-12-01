@@ -1,7 +1,7 @@
 @media (min-width:1000px){
     .article-1{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-content: center;
         gap: 15px;
         flex-direction: row-reverse;
@@ -61,16 +61,10 @@ font-family: $font-text;
 width: 80vw;
 margin: 10px;
 }
+
 .boton1{
-display: inline-block;
-padding: 15px;
-width: 180px;
-margin-left: 10px;
+@include button_funtions ();
 background-color: white;
 color: $color-button;
-text-align: center;
-text-decoration: none;
-font-size: 20px;
-border-radius: 5px;
-font-family: $font-text;
+
 }
