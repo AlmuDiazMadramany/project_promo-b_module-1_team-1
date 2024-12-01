@@ -56,7 +56,7 @@ export default defineConfig({
   },
   server: {
     open: "/index.html",
-      whatch: {
+      watch: {
         usePolling: true
       }
   },
