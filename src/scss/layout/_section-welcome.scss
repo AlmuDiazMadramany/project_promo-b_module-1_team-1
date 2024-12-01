@@ -12,10 +12,7 @@
         flex-direction: column;
         justify-content:center;
     }
-    .title-article-1{
-        font-size: 40px;
-
-    }
+ 
 }
 .section-1{
 padding-bottom: 15px;
@@ -45,6 +42,9 @@ line-height: 1.25;
 text-align: left;
 color:white;
 font-family: $font-title;
+@media (min-width:1000px){
+    font-size: 40px;
+}
 }
 
 .parrafo-article-1{
@@ -67,7 +67,7 @@ padding: 15px;
 width: 180px;
 margin-left: 10px;
 background-color: white;
-color: rgb(33, 37, 41);
+color: $color-button;
 text-align: center;
 text-decoration: none;
 font-size: 20px;
