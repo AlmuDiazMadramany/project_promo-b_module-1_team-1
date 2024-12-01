@@ -1,26 +1,37 @@
 @media (min-width:1000px){
     .article-1{
         display: flex;
+        justify-content: space-evenly;
+        align-content: center;
         gap: 15px;
         flex-direction: row-reverse;
         
     } 
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+ 
 }
 .section-1{
 padding-bottom: 15px;
-background-color: rgb(116 198 157);
+background-color: $color-brand;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 }
 
 .title-section-1{
+   
 margin: 10px;
-font-size: 28px;
+font-size: 16px;
 line-height: 1.25;
 text-align: left;
-font-family: var(--font-family-p);
+font-family: $font-text;
 color:white;
+font-weight: bold;
+letter-spacing: 5px;
 
 }
 .title-article-1{
@@ -29,8 +40,11 @@ font-size: 28px;
 font-weight: bold;
 line-height: 1.25;
 text-align: left;
-font-family: var(--font-family-h);
 color:white;
+font-family: $font-title;
+@media (min-width:1000px){
+    font-size: 40px;
+}
 }
 
 .parrafo-article-1{
@@ -39,24 +53,18 @@ flex-grow: 0;
 font-size: 15px;
 line-height: 1.25;
 text-align: left;
-font-family: var(--font-family-p);
 color:white;
+font-family: $font-text;
 }
 
 .image-article-1{
 width: 80vw;
 margin: 10px;
 }
+
 .boton1{
-display: inline-block;
-padding: 15px;
-width: 180px;
-margin-left: 10px;
-font-family: var(--font-family-p);
+@include button_funtions ();
 background-color: white;
-color: rgb(33, 37, 41);
-text-align: center;
-text-decoration: none;
-font-size: 20px;
-border-radius: 5px;
+color: $color-button;
+
 }
