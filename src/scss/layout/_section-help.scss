@@ -62,38 +62,42 @@
 /* section 2 articulo 3 */
 
 .article3{
-margin-top: 30px;
-margin-bottom:20px;
-padding: 20px;
-width: 100vw;
+    margin-top: 20px;
+    margin-bottom:5px;
+    padding: 10px;
+    width: 100vw;
+ 
 }
 
 .image-article3{
-width: 80vw;
-margin: 10px;
+    width: 80vw;
+    margin: 10px;
 }
 
 .title-article3{
-padding-top: 30px;
-font-family: var(--font-family-h);
-font-weight: bold;
-text-align: left;
-}
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgb(33, 37, 41);
+    font-weight: bold;
+    font-family: $font-title;
 
 .parrafo-article3{
-padding-top: 15px;
-font-family: var(--font-family-p);
-color: rgb(194,196,196);
-}
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-family:$font-text;
+    color:$color-text;
+    }
 
-.button3{
+
+
+.button-3{
 display: inline-block;
 padding: 15px;
 width: 180px;
-margin-left: 20px;
-font-family: var(--font-family-p);
-background-color:
-#212529;
+margin-left: 10px;
+font-family:$font-text;
+background-color:$color-button;
 color: white;
 text-align: center;
 text-decoration: none;
@@ -102,17 +106,18 @@ border-radius: 5px;
 }
 
 @media (min-width: 1000px) {
-.button3 {margin: 10px;}
-.article3 {width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center ;}
-.div-article3 {display: flex;
-                flex-direction: column;
-                text-align: left;
-                gap: 16px;
-                width: 40vw;}
-.title-article3 {font-size: 1.8rem;}
-.image-article3 {width: 40vw;}
-
-}
+    .button-3 {margin: 10px;}
+    .article3 {width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-evenly;
+                align-items: center ;}
+    .div-article3 {display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    gap: 16px;
+                    width: 40vw;}
+    .title-article3 {font-size: 1.8rem;}
+    .image-article3 {width: 40vw;}
+    
+    } 
