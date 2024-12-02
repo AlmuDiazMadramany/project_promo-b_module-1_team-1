@@ -60,7 +60,7 @@ export default defineConfig({
         usePolling: true
       }
   },
-  }, 
+
   plugins: [
     injectHTML(),
     ViteImageOptimizer({
