@@ -1,0 +1,50 @@
+
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p {
+    display: none;
+}
+
+.titulo-contact{
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+
+
+}
+
+.contact-iframe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.iframe{
+    width: 90%;
+
+}
+
+.contact-form{
+    display: inline-block;
+    width: 80%;
+    max-width: 90%;
+
+
+}
+
+form{
+   display: inline-block;
+    width: 80%;
+    max-width: 90%;
+
+}
