@@ -60,23 +60,14 @@ export default defineConfig({
         usePolling: true
       }
   },
-  
+
   plugins: [
-
     injectHTML(),
-
     ViteImageOptimizer({
-
       /* pass your config */
-
     }),
-
     concat({
-
       input: ['main.js']
-
     }),
-
   ],
-
 });
