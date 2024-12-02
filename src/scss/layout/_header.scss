@@ -65,3 +65,33 @@
             }
         } 
     
+    .logo-menu{
+    width: auto;
+    height: 40px;
+    }
+    
+    @media(min-width:768px){
+    .menu-caja{
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+        align-content: center;
+        gap: 30px;
+        font-size: 20px;
+        color: white;
+    
+    }
+    .logo-titulo{
+    margin-left: 131px;
+    }
+    .menu-primario{
+    margin-right: 131px;
+    }
+    .logo-menu{
+        display:none
+    }
+
+    }
