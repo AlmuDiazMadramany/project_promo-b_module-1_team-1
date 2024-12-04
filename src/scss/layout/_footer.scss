@@ -3,7 +3,7 @@
      color: white;
      font-family: sans-serif;
 
-     @media(min-width:768px){
+     @media(min-width:1024px){
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -17,7 +17,7 @@
      display: flex;
      justify-content: space-around;
      
-     @media(min-width:768px){
+     @media(min-width:1024px){
         width: 400px;
         border-top: none;
         margin-left: 131px;
@@ -31,7 +31,7 @@
      padding-bottom: 31px;
      font-size: 20px;
 
-     @media(min-width:768px){
+     @media(min-width:1024px){
         margin-right: 131px;
         display: flex;
         align-items: center;

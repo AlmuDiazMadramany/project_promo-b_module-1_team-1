@@ -1,21 +1,55 @@
 
 
-.contact-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.main_contact{
+    @media (min-width:1024px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        margin: 40px;
+        height: 80vh;
 
+    }
+   
+
+
+}
+.contact-text{
+    @media (min-width:1024px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+ 
+ 
 }
 
 .p {
     display: none;
+    @media (min-width:1024px){
+        font-family: $font-text;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        
+    }
 }
 
 .titulo-contact{
+    text-align: center;
     padding: 30px;
+    font-family: $font-title;
     font-size: 24px;
     font-weight: bold;
+    @media (min-width:1024px){
+        font-size: 40px;
+    }
 
 
 }
@@ -26,6 +60,10 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    @media (min-width:1024px){
+        flex-direction: row-reverse;
+        
+    }
 
 }
 
@@ -35,16 +73,34 @@
 }
 
 .contact-form{
-    display: inline-block;
     width: 80%;
     max-width: 90%;
 
 
 }
 
-form{
-   display: inline-block;
-    width: 80%;
-    max-width: 90%;
+.table{
+    font-family: $font-title;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr 5fr;
+    gap: 10px;
+  
 
+
+}
+
+.boton-form{
+    display: inline-block;
+    padding: 10px;
+    font-family:$font-text;
+    background-color:$color-button;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
 }

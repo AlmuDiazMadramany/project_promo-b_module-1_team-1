@@ -1,4 +1,4 @@
-@media (min-width:1000px){
+@media (min-width:1024px){
     .article-1{
         display: flex;
         justify-content: space-evenly;
@@ -42,7 +42,7 @@ line-height: 1.25;
 text-align: left;
 color:white;
 font-family: $font-title;
-@media (min-width:1000px){
+@media (min-width:1024px){
     font-size: 40px;
 }
 }
