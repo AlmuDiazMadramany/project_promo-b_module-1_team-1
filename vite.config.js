@@ -56,10 +56,11 @@ export default defineConfig({
   },
   server: {
     open: "/index.html",
-    watch: {
-      usePolling: true
-    }
+      watch: {
+        usePolling: true
+      }
   },
+
   plugins: [
     injectHTML(),
     ViteImageOptimizer({
